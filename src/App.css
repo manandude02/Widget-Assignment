@@ -36,3 +36,590 @@
     transform: rotate(360deg);
   }
 }
+
+.modal {
+position: absolute;
+width: 1060px;
+height: 632px;
+left: 208px;
+top: 183px;
+background-color: white;
+}
+
+
+.components{
+  /* Components */
+
+position: absolute;
+width: 94px;
+height: 14px;
+left: 704px;
+top: 141px;
+
+font-family: 'Geist';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 14px;
+/* identical to box height, or 108% */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: rgba(43, 43, 43, 0.35);
+
+
+}
+
+.dashboard{
+/* Dashboard */
+
+position: relative;
+width: 1440px;
+height: 960px;
+
+background: #F4F4FF;
+
+}
+
+.navigation{
+  /* Navigation */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1360px;
+height: 64px;
+left: 80px;
+top: 0px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #E4E4E7;
+
+}
+
+.widgets{
+  /* Widgets */
+  display: flex;
+  flex-wrap: wrap;
+position: absolute;
+height: 844px;
+left: 117px;
+top: 93px;
+}
+
+.sidebar{
+  /* Sidebar navigation */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 80px;
+height: 960px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border-right: 1px solid #EAECF0;
+
+}
+
+.vector{
+  /* Vector */
+
+position: absolute;
+left: 94.93%;
+right: 3.61%;
+top: 32.81%;
+bottom: 32.81%;
+
+}
+
+.link1{
+  /* Link */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 140px;
+height: 40px;
+left: 1127px;
+top: calc(50% - 40px/2);
+
+background: rgba(94, 90, 219, 0.05);
+border: 1px solid rgba(94, 90, 219, 0.15);
+border-radius: 8px;
+background-image: url('assets/Link.png');
+
+}
+
+.link1:hover{
+  cursor: pointer;
+}
+
+.link2{
+  /* Link */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 590px;
+top: calc(50% - 40px/2);
+
+background: rgba(94, 90, 219, 0.05);
+border: 1px solid rgba(94, 90, 219, 0.15);
+border-radius: 8px;
+
+}
+
+.home{
+  /* home */
+
+position: absolute;
+width: 20.8px;
+height: 20.8px;
+left: 21.6px;
+top: 21.6px;
+
+
+}
+
+.cross1{
+  /* cross-1 */
+
+position: absolute;
+width: 14.4px;
+height: 14.4px;
+left: 424px;
+top: 25px;
+
+
+}
+
+.left-sidebar{
+  /* Left Sidebar */
+
+position: absolute;
+width: 327px;
+height: 20px;
+left: 16px;
+top: 22px;
+
+
+}
+
+.content{
+  /* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+width: 80px;
+height: 960px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.navigation2{
+  /* Navigation */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px 0px 0px;
+gap: 24px;
+
+margin: 0 auto;
+width: 80px;
+height: 304px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.footer{
+  /* Footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px 24px;
+gap: 24px;
+
+margin: 0 auto;
+width: 80px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.avatar{
+  /* Avatar */
+
+width: 48px;
+height: 48px;
+
+/* Avatar user square/Olivia Rhye */
+background: "https://s3-alpha-sig.figma.com/img/6c1f/e88a/3b9e8dfddf4a065581b04df49638ca9c?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nuwq1A0MbScedEjzq1hGRieaYIYuUuAaGMfd9JFLXby7GPEhJL-Cbcylm7pMONRVd0Xv37L6icsL77CCQVXo7OCBRrupV8UV7D0QTpz5YgD7FaepR0eESBwHr1rsMFlzt4604ATxsSDp0rqiBdSz~HBLrP9gzcCRlBCZxaBapter3ttCW9hRX8cU-SDk9~IWHOnHSEJtS89CuAM9rblpfMUsx5mv2KmR-S2-JEDDgv641nBYbef3xA1-bgTlmQzkRQciKpqjdC~ndGtpXEKIbbm4PHtU7uJAhXFHGPQE-0VAGBpQxLFhtM2U1KDdhwfKTAPaHrGuZN9iXaZ7OZ57Cg__";
+border-radius: 9999px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.header{
+  /* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 20px 0px 24px;
+
+width: 80px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.navigation3{
+  /* Navigation */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px;
+gap: 8px;
+
+width: 80px;
+height: 216px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.icon{
+  /* L2493 */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.nav-item-button{
+  /* _Nav item button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+
+width: 48px;
+height: 48px;
+
+background: #FFFFFF;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.side-icon{
+  /* activity */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.add-widgets{
+  /* Add Widget */
+
+position: relative;
+width: 1440px;
+height: 960px;
+
+background: #F4F4FF;
+
+}
+
+.container1{
+  /* Container */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+
+position: absolute;
+width: 325px;
+height: 78px;
+left: 699px;
+top: 374px;
+
+border: 1px solid #E4E4E7;
+border-radius: 8px;
+
+}
+
+.container2{
+  /* Container */
+
+box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+
+position: absolute;
+width: 325px;
+height: 104px;
+left: 699px;
+top: 257px;
+
+border: 1px solid #E4E4E7;
+border-radius: 8px;
+
+}
+
+.container1-1{
+  /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 293px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+.description{
+  /* Random Description */
+
+width: 121px;
+height: 20px;
+
+font-family: 'Geist';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 19px;
+/* identical to box height, or 150% */
+
+color: #888891;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.summary{
+  /* Summary */
+
+width: 73px;
+height: 24px;
+
+font-family: 'Geist';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #585858;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.container3{
+  /* Switch Container */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+
+position: absolute;
+width: 325px;
+height: 78px;
+left: 699px;
+top: 167px;
+
+border: 1.5px solid #5E5ADB;
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+border-radius: 8px;
+
+}
+
+.new-widget {
+  height: 200px;
+  width: 300px;
+  background-color: burlywood;
+  margin-right: 20px;
+}
+
+.cancel-button{
+  /* Buttons/Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 51px;
+gap: 4px;
+
+position: absolute;
+width: 122px;
+height: 50px;
+left: 120px;
+top: -6px;
+
+background: #5E5ADB;
+/* Shadows/shadow-xs */
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 6px;
+background-image: url('assets/Cancel.png');
+}
+
+.cancel-button:hover{
+  cursor: pointer;
+}
+
+.save-button{
+  /* Buttons/Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 47px;
+gap: 6px;
+
+position: absolute;
+width: 125px;
+height: 50px;
+left: -14px;
+top: -6px;
+
+background: #FFFFFF;
+border: 1px solid #E4E4E7;
+border-radius: 6px;
+background-image: url('assets/Button.png');
+}
+
+.save-button:hover{
+  cursor: pointer;
+}
+
+.buttons{
+  /* Content */
+
+position: absolute;
+width: 160px;
+height: 44px;
+left: 782px;
+top: 556px;
+}
+
+.container1:hover{
+  cursor: pointer;
+}
+
+.container2:hover{
+  cursor: pointer;
+}
+
+.container3:hover{
+  cursor: pointer;
+}
